@@ -18,8 +18,16 @@ Help:
 
 Symbol    Value
 I          1
+II         2
+III        3
+IV         4
 V          5
+VI         6
+VII        7
+VIII       8
+IX         9
 X          10
+XXI        21
 L          50
 C          100
 D          500
@@ -32,6 +40,6 @@ INPUT     |  OUTPUT
 'I'       |  1
 'IV'      |  4
 'XXI'     |  21
-"MCMXC"   |  1990         (1000 = M, 900 = CM, 90 = XC
-'MMVIII'  |  2008         (1000 = M, 900 = CM, 90 = XC) 
-'MDCLXVI' |  1666
+"MCMXC"   |  1990         1000 = M, 900 = CM, 90 = XC
+'MMVIII'  |  2008         1000 = M, 900 = CM, 90 = XC 
+'MDCLXVI' |  1666         1000 = M, 600 = DC, 60 = LX, 60 = VI  
