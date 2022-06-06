@@ -17,4 +17,12 @@ describe('romanNumeralDecoder', () => {
     expect(romanNumeralDecoder("XI")).toBe(11);
   });
 
+  it("outputs as a numeric decimal integer the value of a roman numeral", () => {
+    expect(romanNumeralDecoder("XXI")).toBe(21);
+  });
+
+  it("outputs as a numeric decimal integer the value of a roman numeral", () => {
+    expect(romanNumeralDecoder("L")).toBe(50);
+  });
+
 });
